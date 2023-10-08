@@ -59,7 +59,7 @@ for _, row in meteorite_data_sorted.iterrows():
         title = f"Meteorite Landing in {int(row['year'])}",
         legend_title='Class',
         showlegend=True,
-        legend=dict(x=0.5, y=-0.1, orientation='h', bgcolor='white', bordercolor='black', borderwidth=0.5)
+        legend=dict(x=0.25, y=-0.1, orientation='h', bgcolor='white', bordercolor='black', borderwidth=0.5)
     )
     
     # Save the plot as a PNG file

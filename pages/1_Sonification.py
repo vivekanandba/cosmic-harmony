@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title='Cadence of the Meteorites', page_icon='🌠')
+st.set_page_config(page_title='Cosmic Harmony', page_icon='🌠')
 
 st.title("A Sonification of Meteorite Showers")
 st.header("Cadence of the Meteorites ")

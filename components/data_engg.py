@@ -7,6 +7,8 @@ def load_data_and_clean_data():
 
 # Load Data
 
+    top_x = 100
+
     df = pd.read_csv('data/Meteorite_Landings.csv')
 
     # Drop null values
@@ -28,8 +30,8 @@ def load_data_and_clean_data():
     # Sort by mass descending
     df = df.sort_values(by='mass', ascending=False)
 
-    # Choose top 500 values
-    df = df.iloc[:500]
+    # Choose top x values
+    df = df.iloc[:top_x]
 
     # Apply the class categories to the class column and create a new column called class_cat
     df['class_cat'] = df['class'].apply(lambda x: [k for k, v in class_categories.items() if x in v][0])
