@@ -9,26 +9,26 @@ image_dir = Path('images')
 
 st.set_page_config(page_title='Cosmic Harmony', page_icon='🌠')
 
-st.markdown("# Join us on a unique journey, \n # a symphony of the cosmos.")
+st.markdown("<h1 style='text-align: center;'>Join us on a unique journey, a symphony of the cosmos.</h1>", unsafe_allow_html=True)
 st.divider()
-# st.header("Cadence of the Meteorites ")
-# st.text("`Meteorites might be the metronome that sets the cadence of biological evolution on Earth`")
 
-st.text("""
-Let’s follow along meteorites
-—yes, those celestial wanderers—
-as they make their appearances into our world.
- 
-In the vast cosmic tapestry, meteorites are but tiny threads,
-remnants of our primordial solar neighborhood.
- 
-Like cosmic messengers, they travel vast distances
-to bring whispers of our distant past.
- 
-We'll take you on a sonic voyage through time,
-from more than five hundred years ago 
-to the present day.
-""")
+st.markdown(
+    """
+> <div style='text-align: center;'>
+>     <p>Let’s follow along meteorites
+>     —yes, those celestial wanderers—
+>     as they make their appearances into our world.</p>
+>     <p>In the vast cosmic tapestry, meteorites are but tiny threads,
+>     remnants of our primordial solar neighborhood.</p>
+>     <p>Like cosmic messengers, they travel vast distances
+>     to bring whispers of our distant past.</p>
+>     <p>We'll take you on a sonic voyage through time,
+>     from more than five hundred years ago 
+>     to the present day.</p>
+> </div>
+    """,
+    unsafe_allow_html=True
+)
   
 df = load_data_and_clean_data()
 
