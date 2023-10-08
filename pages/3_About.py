@@ -7,16 +7,13 @@ st.set_page_config(page_title='Comic Harmony', page_icon='🌠')
 
 image_dir = Path('images')
 
-
-
-st.header("About this project")
-st.divider()
+# st.header("About this project")
+# st.divider()
 image = Image.open(image_dir / 'poster.jpeg')
 st.image(image, caption='Cosmic Harmony', use_column_width=True)
 
 st.divider()
-st.markdown("<h1 style='text-align: center;'>A Sonification of Meteorite Showers - Cadence of the Meteorites</h1>", unsafe_allow_html=True)
-st.text("A Sonification of Meteorite Showers - Cadence of the Meteorites ")
+st.markdown("<h1 style='text-align: center;'>A Sonification of Meteorite Impacts - Cadence of the Meteorites</h1>", unsafe_allow_html=True)
 st.text("`Meteorites might be the metronome that sets the cadence of biological evolution on Earth`")
 st.divider()
 
