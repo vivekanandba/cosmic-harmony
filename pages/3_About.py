@@ -54,12 +54,33 @@ st.markdown("<h4 style='text-align: center;'>Project Details - <a href>https://w
 st.divider()
 st.markdown("<h3 style='text-align: center;'>Gallery</h3>", unsafe_allow_html=True)
 st.image('images/Auditorium-Jain-University-clear.jpeg', caption='Part of the team in Jain University - Bangalore', use_column_width=True)
+st.image('images/audio-setup-milian-studio.jpeg', caption='Milian at Studio - London', use_column_width=True)
 st.divider()
 st.markdown("<h3 style='text-align: center;'>Setup</h3>", unsafe_allow_html=True)
 st.image('images/coding-setup.png', caption='Coding Setup - VS Code, Python (Streamlit, Plotly, Pandas), AI - Github CoPilot, ChatGPT', use_column_width=True)
 st.image('images/audio-setup-logic-pro-1.png', caption='Audio Setup - Logic Pro Valhalla reverb, Arturia piano v3', use_column_width=True)
 st.image('images/audio-setup-logic-pro-2.png', caption='Audio Setup - Logic Pro Valhalla reverb, Arturia piano v3', use_column_width=True)
+st.image('images/audio-setup-milian.jpeg', caption='Milian`s Audio Setup', use_column_width=True)
 st.divider()
+st.markdown("<h3 style='text-align: center;'>Approach</h3>", unsafe_allow_html=True)
+st.image('images/flowchart-workflow.jpg', caption='Flowchart - Workflow', use_column_width=True)
+st.markdown("<h3 style='text-align: center;'>How does it work</h3>", unsafe_allow_html=True)
+st.write("It works by converting the meteorite 3D data set and mapping the year and mass to different musical parameters.")
+st.image('images/dataset-clear.png', caption='Meteorite Dataset', use_column_width=True)
+st.image('images/mapping-data-audio.png', caption='Mapping of Data to Audio', use_column_width=True)
+st.markdown("""
+* Dimension 1 (X-axis): the “reclong” (Longitude)
+* Dimension 2 (Y-axis): the “reclat” (Latitude),
+* Dimension 3 (Z-axis): what we want to visualize/sonify, e.g., **mass, **year*, or another relevant variables
+""")
+st.write("We thereby created a sonification that users can experience. Additionally, as another dimension, the class of the meteorite is shown with different colours too")
+st.markdown("<h3 style='text-align: center;'>Tools, coding languages, software</h3>", unsafe_allow_html=True)
+st.markdown("""
+1. Language – Python – Libraries – Streamlit, plotly, pandas
+2. Video – https://app.pictory.ai
+3. Audio - Logic pro - Valhalla reverb, Arturia piano v3
+4. AI – ChatGPT, Github CoPilot, Bard
+""")
 
 
 
