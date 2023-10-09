@@ -6,7 +6,21 @@ In the cosmic symphony of our universe, there lies a challenge: to render its be
 
 ### Team Name: Cosmic Harmony
 
-https://www.spaceappschallenge.org/2023/find-a-team/cosmic-harmony
+## Web App - https://cosmic-harmony.streamlit.app/
+
+## Project Details - https://www.spaceappschallenge.org/2023/find-a-team/cosmic-harmony
+
+## [Space Orchestra](https://youtu.be/tYtYTPQycjU)
+
+<video width="640" height="480" controls>
+  <source src="data/space-orchestra-correct.mp4" type="video/mp4">
+</video>
+
+## [Jazz Ensemble](https://youtu.be/uUJGU415jDA)
+
+<video width="640" height="480" controls>
+  <source src="data/jazz-ensemble-correct.mp4" type="video/mp4">
+</video>
 
 ### Team Members:
 - Christabel - Storyteller

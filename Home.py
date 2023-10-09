@@ -30,6 +30,5 @@ st.markdown(
     unsafe_allow_html=True
 )
   
-df = load_data_and_clean_data()
-
-st.plotly_chart(plot_geo_with_size(df, projection='orthographic'))
+st.video("data/intro.mp4")
+st.divider()

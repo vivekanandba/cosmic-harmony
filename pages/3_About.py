@@ -24,8 +24,8 @@ st.write("We're excited to open our doors to like-minded individuals who share o
 st.divider()
 # Create a sample dataframe
 data = {
-    'Name': ['Christabel', 'Milian', 'Lokesh', 'Shrishaila', 'Mamta', 'Vivek'],
-    'Image': [image_dir / 'christabel.jpg', image_dir / 'milian.jpg', image_dir / 'lokesh.jpeg', image_dir / 'shrishaila.jpeg', image_dir / 'mamta.jpeg', image_dir / 'vivek.jpeg']
+    'Name': ['Christabel - Storyteller ', 'Milian - Audio Producer', 'Lokesh - Data Explorer', 'Shrishaila - Data Analyst', 'Mamta - Validator', 'Vivek - Integrator'],
+    'Image': [image_dir / 'christabel.jpg', image_dir / 'milian.jpg', image_dir / 'lokesh.jpeg', image_dir / 'shrishaila.jpeg', image_dir / 'mamta.jpeg', image_dir / 'vivek.jpeg'],
 }
 df = pd.DataFrame(data)
 
@@ -43,3 +43,23 @@ for index, row in df.iterrows():
         col3.image(str(row['Image']), width=150)
         col3.write(row['Name'])
 st.divider()
+st.markdown("<h2 style='text-align: center;'>Hackathon - Bangalore Oct - 2023</h2>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<h3 style='text-align: center;'>References</h3>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>Dataset - NASA Meteorite Landings Data <a href>https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh</a></h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>Sonification - Matt Russo Sonification in Python - Sonification with Python - How to Turn Data Into Music w Matt Russo (Part 1) <a href>https://www.youtube.com/watch?v=DUdLRy8i9qI</a></h4>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<h4 style='text-align: center;'>Github Link - <a href>https://github.com/vivekanandba/cosmic-harmony</a></h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>Project Details - <a href>https://www.spaceappschallenge.org/2023/find-a-team/cosmic-harmony</a></h4>", unsafe_allow_html=True)
+st.divider()
+st.markdown("<h3 style='text-align: center;'>Gallery</h3>", unsafe_allow_html=True)
+st.image('images/Auditorium-Jain-University-clear.jpeg', caption='Part of the team in Jain University - Bangalore', use_column_width=True)
+st.divider()
+st.markdown("<h3 style='text-align: center;'>Setup</h3>", unsafe_allow_html=True)
+st.image('images/coding-setup.png', caption='Coding Setup - VS Code, Python (Streamlit, Plotly, Pandas), AI - Github CoPilot, ChatGPT', use_column_width=True)
+st.image('images/audio-setup-logic-pro-1.png', caption='Audio Setup - Logic Pro Valhalla reverb, Arturia piano v3', use_column_width=True)
+st.image('images/audio-setup-logic-pro-2.png', caption='Audio Setup - Logic Pro Valhalla reverb, Arturia piano v3', use_column_width=True)
+st.divider()
+
+
+

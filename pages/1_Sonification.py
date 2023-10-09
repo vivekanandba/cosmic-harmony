@@ -10,8 +10,7 @@ st.divider()
 st.markdown("<h2 style='text-align: center;'>We created this immersive experience, so it`s accessible to both, those with vision, and those who perceive beyond sight.</h2>", unsafe_allow_html=True)
 st.divider()
 
-st.video("data/intro.mp4")
-st.divider()
+
 # st.markdown("#### Chronicles of the Meteorites")
 
 st.markdown("<h3 style='text-align: center;'>Meteorite discoveries and impacts have been a part of human history for millennia.</h3>", unsafe_allow_html=True)
