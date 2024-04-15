@@ -1,0 +1,7 @@
+pandas
+matplotlib
+audiolazy
+midiutil
+pygame
+Pillow
+numpy
